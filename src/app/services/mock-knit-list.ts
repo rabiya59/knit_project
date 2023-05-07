@@ -1,4 +1,4 @@
-import { Knit } from "./knit";
+import { Knit } from "../models/knit";
 export const KNIT : Knit[] = [
 
     {

@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { KnitListComponent } from './knit-list/knit-list.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    KnitListComponent
   ],
   imports: [
     BrowserModule,
