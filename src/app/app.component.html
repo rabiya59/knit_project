@@ -1,0 +1,12 @@
+<h1> Liste des points</h1>
+<input #input (keyup.enter)="selectKnit(input.value)" type="number" >
+
+<p *ngIf="KnitSelected"> 
+    Vous avez selectionné: {{ KnitSelected?.name}}
+    <img [src]="KnitSelected.picture" width="100px">
+</p>
+<p *ngIf="!KnitSelected"> 
+    Aucun point trouvés!
+</p>
+<!--<p  *ngFor="let listKnit of knitList" >nom : {{listKnit.name}} image: <img [src]="listKnit.picture" width="100px"
+    /> </p>-->
