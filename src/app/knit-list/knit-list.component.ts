@@ -15,16 +15,4 @@ export class KnitListComponent implements OnInit {
   ngOnInit() {
     console.table(this.knitList)
   }
-  selectKnit(knitId : string){
-    const knit : Knit| undefined= this.knitList.find(knit => knit.id ===  +knitId)
-    
-    if(knit){
-     console.log(`vous avez cliqué sur ${knit.name}`);
-     this.KnitSelected = knit;
-    }else{
-     console.log('not knit find') 
-     this.KnitSelected = knit;
-    }
-   }
-
 }

@@ -4,12 +4,37 @@ export const KNIT : Knit[] = [
     {
         id:1,
         name:'Jersey',
-        picture: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DVQBYmF5YZN0&psig=AOvVaw3oYoO3VFtewG0-RnyXDJQq&ust=1683562816246000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIDY4K_O4_4CFQAAAAAdAAAAABAG'
+        picture: 'https://www.bergeredefrance.fr/media/CMS/contenu/Point-de-jersey-endroit_1.jpg',
+        level: 'Facile'
+
     },
     {
         id:2,
         name:'Mousse',
-        picture: 'https://www.bergeredefrance.fr/media/CMS/contenu/Le_point_mousse_-_Tutoriel_-_Berg_re_de_France.png'
+        picture: 'https://www.bergeredefrance.fr/media/CMS/contenu/Le_point_mousse_-_Tutoriel_-_Berg_re_de_France.png',
+        level: 'Débutant'
+
+    },
+    {
+        id:3,
+        name:'Point de riz',
+        picture: 'https://www.bergeredefrance.fr/media/CMS/contenu/Point-de-riz_1.jpg',
+        level: 'Facile'
+
+    },
+    {
+        id:4,
+        name:'Point de blé',
+        picture: 'https://www.bergeredefrance.fr/media/CMS/contenu/Point-de-bl__1.jpg',
+        level: 'Facile'
+
+    },
+    {
+        id:5,
+        name:'Côtes 1/1',
+        picture: 'https://www.bergeredefrance.fr/media/CMS/contenu/point-de-cotes-1-1.jpg',
+        level: 'Facile'
+
     },
 
 ]
