@@ -1,0 +1,12 @@
+<label>Rechercher un point</label>
+<input #input (keyup.enter)="selectKnit(input.value)" type="number" >
+
+<p *ngIf="KnitSelected"> 
+    Vous avez selectionné: {{ KnitSelected?.name}}
+    <img [src]="KnitSelected.picture" width="100px">
+    
+</p>
+<p *ngIf="!KnitSelected"> 
+    Aucun point trouvés!
+</p>
+
