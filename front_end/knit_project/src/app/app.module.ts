@@ -8,6 +8,7 @@ import { KnitListComponent } from './knit-list/knit-list.component';
 import { KnitInputSearchComponent } from './knit-input-search/knit-input-search.component';
 import { BorderCardDirective } from './border-card.directive';
 import { SearchKnitComponent } from './search-knit/search-knit.component';
+import { KnitComponent } from './knit/knit.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { SearchKnitComponent } from './search-knit/search-knit.component';
     KnitListComponent,
     KnitInputSearchComponent,
     BorderCardDirective,
-    SearchKnitComponent
+    SearchKnitComponent,
+    KnitComponent
   ],
   imports: [
     BrowserModule,

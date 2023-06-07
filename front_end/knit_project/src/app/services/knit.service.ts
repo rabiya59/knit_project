@@ -8,6 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class KnitService {
 
+  knitList$!: Observable<Knit[]>;
 
 
 constructor(private http: HttpClient) {}

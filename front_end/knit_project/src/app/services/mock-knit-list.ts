@@ -39,3 +39,7 @@ export const KNIT : Knit[] = [
     }
 
 ]
+console.log(KNIT);
+
+
+    

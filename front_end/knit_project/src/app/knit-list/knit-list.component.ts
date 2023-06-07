@@ -14,15 +14,15 @@ export class KnitListComponent implements OnInit {
   // version observable
   //knits! : Knit[]
 
-  knitList$! :Observable<Knit[]>;
+  knitList$!: Observable<Knit[]>;
 
-  constructor(private knitService : KnitService){}
+  constructor(private knitService: KnitService){}
   // on accède au service via la propriété knitService
-
 
 
   ngOnInit() {
     //console.table(this.knitList)
-    this.knitList$! = this.knitService.getAllKnit();
+    this.knitList$ = this.knitService.getAllKnit();
   }
 }
+
